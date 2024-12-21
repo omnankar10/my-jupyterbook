@@ -1,0 +1,7 @@
+# Table of contents for the book
+format: jb-book
+root: content/intro
+chapters:
+  - file: content/resume
+  - file: content/video
+  - file: content/links

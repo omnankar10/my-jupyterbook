@@ -1,0 +1,21 @@
+# JupyterBook configuration file
+title: "EAS-503 Final Project"
+author: "Om Nankar"
+#logo: "images/logo.png"  # Optional logo (uncomment and update if you have a logo)
+execute:
+  execute_notebooks: "off"  # Skip execution for embedded notebooks
+
+html:
+  favicon: "images/favicon.ico"  # Update if you have a favicon
+  theme: "sphinx_book_theme"
+
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  colab_url: "https://colab.research.google.com/"
+  thebe: true  # Enable Thebe for interactive code cells
+
+thebe_config:
+  requestKernel: true
+  binderOptions:
+    repo: "your-repo-name"  # Replace with your GitHub repository name
+    ref: "main"             # Replace with your branch name (e.g., main or master)
